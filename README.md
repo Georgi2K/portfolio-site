@@ -9,12 +9,16 @@ It consists of two main parts:
 The dataset already includes a collection of **dog** and **cat** images for training and testing.  
 👉 You’re always free to replace the dataset and change the classification topic (e.g., **Cars vs Planes**, **Apples vs Oranges**, etc.).  
 
-**Technologies**  
+---
+
+👨‍💻 **Technologies**  
 - Python 
 - TensorFlow / Keras  
 - Matplotlib (for preprocessing & visualization)  
 
-**Functionality**  
+---
+
+⚙️ **Functionality**  
 - **Dataset Handling**: Load and preprocess dog/cat images.  
 - **Model Training**: Train a CNN and save it as `image_classifier.h5`.  
 - **Model Evaluation**: Calculate accuracy on validation/test sets.  
