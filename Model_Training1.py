@@ -51,4 +51,5 @@ model.fit(train_data, validation_data=val_data, epochs=10)
 test_loss, test_accuracy=model.evaluate(val_data)
 print(f"Model accuracy on validation data: {test_accuracy:.2f}")
 
+# Copy the image_classifier from your own computer files and switch it with mine (unless your also on a german system)
 model.save(r"C:\Users\Anwender\PycharmProjects\Module7\image_classifier.h5")
