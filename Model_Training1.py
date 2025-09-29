@@ -5,7 +5,6 @@ import os
 
 DATASET_PATH='C:\\Users\\Anwender\\PycharmProjects\\Module7\\dataset'
 
-#num_classes=len(os.listdir(DATASET_PATH))
 num_classes = len([
     d for d in os.listdir(DATASET_PATH)
     if os.path.isdir(os.path.join(DATASET_PATH, d))
@@ -53,3 +52,4 @@ print(f"Model accuracy on validation data: {test_accuracy:.2f}")
 
 # Copy the image_classifier from your own computer files and switch it with mine (unless your also on a german system)
 model.save(r"C:\Users\Anwender\PycharmProjects\Module7\image_classifier.h5")
+
